@@ -1,26 +1,33 @@
 /*
-* 时间:2019年11月6日10:46:08
-* 目的:学习数组
-* 结果:
-* */
+ * 时间:2019年11月6日22:01:54
+ * 目的:时分秒案例
+ * */
 package day1106;
 
-import java.util.Scanner;
-
 public class text01 {
+
     public static void main(String[] args) {
-        double sum = 0;
-        Scanner scanner = new Scanner(System.in);
-        //数组声明,填入数组长度
-        double score[] = new double[5];
 
+        //时的循坏
+        for (int hour = 0; hour < 24; hour++) {
 
-        for (int i = 0; i < score.length; i++) {
-            System.out.println("请输入第" + (i + 1) + "名的成绩");
-            score[i] = scanner.nextDouble();
-            sum += score[i];
+            //分的循坏
+            for (int minutes = 0; minutes < 60; minutes++) {
+
+                //秒的循坏
+                for (int seconds = 0; seconds < 60; seconds++) {
+
+                    if (hour == 6) {
+                        System.out.println(hour + "时" + minutes + "分" + seconds + "秒");
+                        continue;
+                    }
+                }
+
+            }
+
         }
-        System.out.println("平均分是" + sum / score.length);
 
     }
 }
+
+

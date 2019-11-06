@@ -1,15 +1,27 @@
 /*
- * 时间:2019年11月6日10:46:53
- * 目的:学习数组
- * 结果:
- * */
+* 时间:2019年11月6日23:05:23
+* 目的:冒泡
+* 结果:失败
+*
+*
+* */
 package day1106;
+
+import javax.xml.stream.XMLOutputFactory;
 
 public class text02 {
     public static void main(String[] args) {
-        String[] sangPin ={"食品","衣服","鞋子","药品","食物"};
-        for (int i = 0; i < sangPin.length; i++) {
-            System.out.println(sangPin[i]);
+        int num[] = {5, 34, 64, 21, 1};
+        int temp;
+        for (int i = 0; i < num.length; i++) {
+            for (int j = 0; j < num.length - 1 - i; j++) {
+                if (num[j] > num[j + 1]) {
+                    temp = num[j];
+                    num[j] = num[j + 1];
+                    num[j + 1] = temp;
+                }
+            }
+            System.out.println(num[i]);
         }
     }
 }
