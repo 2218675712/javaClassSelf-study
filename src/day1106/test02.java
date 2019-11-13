@@ -9,7 +9,7 @@ package day1106;
 
 import javax.xml.stream.XMLOutputFactory;
 
-public class text02 {
+public class test02 {
     public static void main(String[] args) {
         int[] num = {5, 34, 64, 21, 1};
         int temp;

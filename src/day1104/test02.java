@@ -1,6 +1,6 @@
 package day1104;
 
-public class text02 {
+public class test02 {
     public static void main(String[] args) {
         int num = 1;
         switch (num) {

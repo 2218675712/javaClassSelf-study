@@ -7,7 +7,7 @@ package day1110;
 
 import java.util.Scanner;
 
-public class text03 {
+public class test03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入几次helloWorld:");

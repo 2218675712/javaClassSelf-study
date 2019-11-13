@@ -29,7 +29,7 @@
  * */
 package day1109;
 
-public class text01 {
+public class test01 {
     public static void main(String[] args) {
         System.out.println(qiuHe(10, 20));
     }

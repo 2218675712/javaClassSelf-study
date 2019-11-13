@@ -7,7 +7,7 @@
  * */
 package day1105;
 
-public class text01 {
+public class test01 {
     public static void main(String[] args) {
         int a=160;
         int b=76;

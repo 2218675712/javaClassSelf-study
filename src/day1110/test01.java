@@ -6,7 +6,7 @@
  * */
 package day1110;
 
-public class text01 {
+public class test01 {
     public static void main(String[] args) {
         boolean result = isEqual(10, 10);
         System.out.println(result);
